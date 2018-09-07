@@ -1,0 +1,25 @@
+.root {
+-fx-base: rgba(20, 20, 20, 255);
+-fx-font-size: 20px;
+}
+
+.list-view {
+-fx-control-inner-background: rgba(20, 20, 20, 255);
+}
+
+#labelFont{
+-fx-padding: 20px;
+}
+
+
+#settingsVBox .radio-button{
+-fx-padding: 0 0 0 20px;
+}
+
+#settingsVBox .check-box{
+-fx-padding: 0 0 0 20px;
+}
+
+#settingsVBox {
+-fx-padding: 10px;
+}

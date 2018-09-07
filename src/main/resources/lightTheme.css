@@ -1,0 +1,21 @@
+.root {
+-fx-font-size: 20px;
+}
+
+
+#labelFont{
+-fx-padding: 20px;
+}
+
+
+#settingsVBox .radio-button{
+-fx-padding: 0 0 0 20px;
+}
+
+#settingsVBox .check-box{
+-fx-padding: 0 0 0 20px;
+}
+
+#settingsVBox {
+-fx-padding: 10px;
+}

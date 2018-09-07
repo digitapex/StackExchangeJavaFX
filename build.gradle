@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'Stack'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile 'org.jsoup:jsoup:1.11.3'
+    compile group: 'org.controlsfx', name: 'controlsfx', version: '8.40.14'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+}
