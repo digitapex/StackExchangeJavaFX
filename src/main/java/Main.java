@@ -494,7 +494,7 @@ public class Main extends Application {
             ObservableList<String> checkedBoxes = checkListView.getCheckModel().getCheckedItems();
             File file = new File("followedSites.txt");
             boolean deleted = file.delete();
-            if (deleted) {
+            if (deleted || !file.exists()) {
                 try {
                     file.createNewFile();
                 } catch (IOException e) {
