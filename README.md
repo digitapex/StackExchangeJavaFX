@@ -11,4 +11,5 @@ Run it in the Windows Command Prompt or in the Linux Terminal by executing:
 ```
 java -jar Stack.jar
 ```
+The application creates configuration files *followedSites.txt* and *settings.properties* in the same folder where the *Stack.jar* is located.
 
