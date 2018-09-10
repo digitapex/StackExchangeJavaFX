@@ -60,7 +60,7 @@ public class Main extends Application {
             question.setTitle(questionElements.get(i).text());
             question.setAnswersCount(numberOfAnswers.get(i).text());
             question.setQuestionLink(linkAnswer.get(i).attr("href"));
-            question.setSiteName(siteFrom.get(0).text().replace(" Stack Exchange", ""));
+            question.setSiteName(siteFrom.get(0).text().replace(" Stack Exchange", "").replace(" - Where Developers Learn, Share, & Build Careers", ""));
             question.setSiteLink(stackSite);
 
             int answerCount = Integer.valueOf(numberOfAnswers.get(i).text());
