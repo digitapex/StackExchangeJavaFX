@@ -13,3 +13,4 @@ java -jar Stack.jar
 ```
 The application creates configuration files *followedSites.txt* and *settings.properties* in the same folder where the *Stack.jar* is located.
 
+![Screenshot 1](/screenshots/screenshot1.png?raw=true)
